@@ -14,11 +14,11 @@ Desenvolver um protótipo IoT de baixo custo capaz de:
 - acionar automaticamente um sistema de ventilação;
 - desligar o ventilador quando os níveis retornarem a uma faixa adequada.
 
-O projeto está relacionado ao **Objetivo de Desenvolvimento Sustentável 3 – Saúde e Bem-Estar**, especialmente à meta 3.9.
+O projeto está relacionado ao **Objetivo de Desenvolvimento Sustentável 3 - Saúde e Bem-Estar**, especialmente à meta 3.9.
 
 ## Componentes utilizados
 
-- NodeMCU ESP-32S V1.1 – 38 pinos
+- NodeMCU ESP-32S V1.1 - 38 pinos
 - Sensor DHT22 / AM2302
 - Sensor MQ-135
 - Módulo relé de 1 canal
@@ -33,9 +33,9 @@ O projeto está relacionado ao **Objetivo de Desenvolvimento Sustentável 3 – 
 
 | Componente | Conexão ESP32 |
 |---|---|
-| DHT22 – DATA | GPIO 4 |
-| MQ-135 – saída analógica | GPIO 34 |
-| Relé – IN | GPIO 26 |
+| DHT22 - DATA | GPIO 4 |
+| MQ-135 - saída analógica | GPIO 34 |
+| Relé - IN | GPIO 26 |
 | Monitoramento experimental do atuador | GPIO 27 |
 
 O MQ-135 utiliza um divisor resistivo para adequar a tensão da saída analógica ao nível suportado pelo ESP32.
