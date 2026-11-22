@@ -189,4 +189,4 @@ O broker HiveMQ utilizado é público. Por isso, os tópicos empregados neste pr
 
 **David Pessoa**
 
-Projeto acadêmico – 2026.
+Projeto acadêmico - 2026.
